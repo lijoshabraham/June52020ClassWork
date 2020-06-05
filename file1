@@ -1,12 +1,11 @@
 function sum() {
-    let count = 0;
-  
-    [...Array(1000).keys()].forEach(i => {
+    let value = 0;
+    for (i = 1000; i > 0; i--) {
       if (i % 11 === 0 && i > 17) {
-        count += i;
+        value += i;
       }
-    });
-    console.log(count);
+    }
+    console.log(value);
   }
   
   sum();
