@@ -1,0 +1,25 @@
+// LINK TO VIDEO:  https://youtu.be/3buq4p6T6gs
+
+// this exercise is to demonstrate the use of the MSC Debugger
+// and the construction of a Memory Map!
+// YOU USE THE DEBUGGER FOR 2 JOBS: 
+//    (1) EXAMINE THE STATE(VALUE) OF VARIABLES AND EXPRESSIONS!
+//    (2) Trace the flow of control, or the flow of EXECUTION
+
+// Step 1: Let's write a simple program!
+//
+// Step 2: Use the Debugger: We ALWAYS begin by putting in BREAK POINTS: A break is a line of code at which
+//         the debugger will PAUSE and then you can:  Examine the values of variables, and expressions!
+
+var a,b,c;
+let x,y,z;
+
+a =1;
+a++;
+b =2;
+b--;
+c =3;
+
+for (  ; a>b++ ;  ){
+    
+}
