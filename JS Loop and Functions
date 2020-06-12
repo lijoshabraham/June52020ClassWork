@@ -1,0 +1,13 @@
+function a(start, end, stepNumber){ 
+
+    var sum = 0;
+    var currentNumber = start;
+
+    while ( currentNumber > end ){
+        sum += currentNumber;
+        currentNumber -= stepNumber;
+    }
+    return sum;
+}
+
+console.log("<h1>sum is ", a(1000, 100, 17), "</h1");
