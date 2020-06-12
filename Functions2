@@ -1,0 +1,11 @@
+function a(b){return b+1;}
+
+function Zebra(){return IAmAaVariable += IAmAaVariable+2;}
+
+var IAmAaVariable = 10;
+
+while (Zebra){
+    if (IAmAaVariable <20){
+    console.log(IAmAaVariable++);}
+    return;
+}
