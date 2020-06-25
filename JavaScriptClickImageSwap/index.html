@@ -3,7 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Document</Swap Image>
+        <script>
+
+            var toggleimage=new Array("brown1.png","brownAndSally.jpg")
+            var image_1=new Image()
+            var image_2=new Image()
+            image_1.src=toggleimage[0]
+            image_2.src=toggleimage[1]
+            var i_image=0
+        
+            function testloading() {
+                isloaded=true
+            }
+            function toggle() {
+        if (isloaded) {
+            document.togglepicture.src=toggleimage[i_image]
+        }
+        i_image++
+        if (i_image>1) {i_image=0}
+    }
+    onload=testloading
+
+            </script>
   </head>
   <body></body>
 </html>
